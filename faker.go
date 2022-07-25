@@ -506,6 +506,11 @@ func (f Faker) Gender() Gender {
 	return Gender{&f}
 }
 
+// Blood returns a fake Blood instance for Faker
+func (f Faker) Blood() Blood {
+	return Blood{&f}
+}
+
 // BinaryString returns a fake BinaryString instance for Faker
 func (f Faker) BinaryString() BinaryString {
 	return BinaryString{&f}
